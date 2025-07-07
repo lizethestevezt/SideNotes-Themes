@@ -1,0 +1,245 @@
+{
+  "$schema": "https://www.apptorium.com/schemas/sntheme.json",
+  
+  /*
+   * Pastel Rosa Mauve — SideNotes Theme
+   * Palette
+   *  Velo de Pétalo   #F9E6E5  – lightest background / paper
+   *  Bruma de Azahar  #F5D0CF  – header & subtle surfaces
+   *  Polvo de Sakura  #EABDBB  – accent-tint / links
+   *  Rosa Antiguo     #D9A3A2  – accent / buttons
+   *  Malva Tostado    #C18D8C  – mid mauve, dark-UI notes background
+   *  Arcilla Ambarina #A47A74  – deepest shade for dark mode base
+   */
+
+  "light": {
+    "accentColor": "#D9A3A2",
+
+    "iOS": {
+      "windowBackgroundColor": "#F9E6E5"
+    },
+
+    "folders": {
+      "header": {
+        "backgroundColor": "#F5D0CF",
+        "textColor": "#A47A74",
+        "buttonColor": "#C18D8C",
+        "enableVisualEffects": true
+      },
+      "list": {
+        "backgroundColor": "#F9E6E5",
+        "textColor": "#A47A74",
+        "secondaryTextColor": "#C18D8C",
+        "buttonColor": "#A47A74",
+        "enableVisualEffects": true
+      },
+      "cleanFolderColor": "#D9A3A2"
+    },
+
+    "folder": {
+      "backgroundColor": "#F5D0CF",
+
+      "header": {
+        "backgroundColor": "#F5D0CF",
+        "textColor": "#A47A74",
+        "buttonColor": "#C18D8C",
+        "enableVisualEffects": true
+      },
+
+      "notes": {
+        "clean": {
+          "backgroundColor": "#F9E6E5",
+          "textColor": "#A47A74",
+          "linkColor": "#EABDBB",
+          "buttonColor": "#C18D8C",
+          "markdownMarkup": {
+            "textColor": "#C18D8C"
+          },
+          "checkMark": {
+            "backgroundColor": "#F5D0CF80",
+            "borderColor": "#C18D8C80",
+            "checkMarkColor": "#FFFFFF",
+            "doneBackgroundColor": "#C18D8C80",
+            "doneBorderColor": "#C18D8C80"
+          },
+          "code": { "textColor": "#C18D8C" },
+          "quote": { "textColor": "#C18D8C" },
+          "codeBlock": { "textColor": "#C18D8C" },
+          "filePreview": {
+            "backgroundColor": "#F5D0CF",
+            "textColor": "#A47A74"
+          }
+        },
+
+        /* coloured notes – use full palette for variety */
+        "colors": [
+          {
+            "backgroundColor": "#EABDBB",
+            "textColor": "#FFFFFF",
+            "secondaryTextColor": "#F9E6E5",
+            "linkColor": "#F9E6E5",
+            "buttonColor": "#F9E6E5CC",
+            "markdownMarkup": { "textColor": "#F9E6E5AA" },
+            "code": { "textColor": "#F9E6E5" },
+            "quote": { "textColor": "#F9E6E5" },
+            "codeBlock": { "textColor": "#F9E6E5" }
+          },
+          {
+            "backgroundColor": "#D9A3A2",
+            "textColor": "#FFFFFF",
+            "secondaryTextColor": "#F9E6E5",
+            "linkColor": "#F9E6E5",
+            "buttonColor": "#F9E6E5CC",
+            "markdownMarkup": { "textColor": "#F9E6E5AA" },
+            "code": { "textColor": "#F9E6E5" },
+            "quote": { "textColor": "#F9E6E5" },
+            "codeBlock": { "textColor": "#F9E6E5" }
+          },
+          {
+            "backgroundColor": "#C18D8C",
+            "textColor": "#FFFFFF",
+            "secondaryTextColor": "#F9E6E5",
+            "linkColor": "#F9E6E5",
+            "buttonColor": "#F9E6E5CC",
+            "markdownMarkup": { "textColor": "#F9E6E5AA" },
+            "code": { "textColor": "#F9E6E5" },
+            "quote": { "textColor": "#F9E6E5" },
+            "codeBlock": { "textColor": "#F9E6E5" }
+          },
+          {
+            "backgroundColor": "#A47A74",
+            "textColor": "#FFFFFF",
+            "secondaryTextColor": "#F9E6E5",
+            "linkColor": "#F9E6E5",
+            "buttonColor": "#F9E6E5CC",
+            "markdownMarkup": { "textColor": "#F9E6E5AA" },
+            "code": { "textColor": "#F9E6E5" },
+            "quote": { "textColor": "#F9E6E5" },
+            "codeBlock": { "textColor": "#F9E6E5" }
+          }
+        ]
+      }
+    },
+
+    "search": {
+      "backgroundColor": "#F5D0CF",
+      "searchField": {
+        "backgroundColor": "#F9E6E5",
+        "textColor": "#A47A74",
+        "shadow": {
+          "color": "#F9E6E5",
+          "blurRadius": 0,
+          "offsetX": 0,
+          "offsetY": -1
+        }
+      },
+      "enableVisualEffects": true
+    }
+  },
+
+  "dark": {
+    "accentColor": "#D9A3A2",
+
+    "iOS": {
+      "windowBackgroundColor": "#A47A74"
+    },
+
+    "folders": {
+      "header": {
+        "backgroundColor": "#A47A74",
+        "textColor": "#F9E6E5",
+        "buttonColor": "#EABDBB",
+        "enableVisualEffects": true
+      },
+      "list": {
+        "backgroundColor": "#C18D8C",
+        "textColor": "#F9E6E5",
+        "buttonColor": "#EABDBB",
+        "enableVisualEffects": true
+      },
+      "cleanFolderColor": "#D9A3A2"
+    },
+
+    "folder": {
+      "backgroundColor": "#A47A74",
+      "header": {
+        "backgroundColor": "#A47A74",
+        "textColor": "#F9E6E5",
+        "buttonColor": "#EABDBB",
+        "enableVisualEffects": true
+      },
+      "notes": {
+        "clean": {
+          "backgroundColor": "#C18D8C",
+          "textColor": "#F9E6E5",
+          "linkColor": "#EABDBB",
+          "buttonColor": "#EABDBB99",
+          "quote": { "textColor": "#EABDBB" },
+          "code": { "textColor": "#EABDBB" },
+          "codeBlock": { "textColor": "#EABDBB" },
+          "mark": {
+            "backgroundColor": "#D9A3A2"
+          },
+          "markdownMarkup": { "textColor": "#FFFFFFA0" },
+          "checkMark": {
+            "backgroundColor": "#D9A3A266",
+            "borderColor": "#F9E6E566",
+            "checkMarkColor": "#A47A74",
+            "doneBackgroundColor": "#F9E6E5CC",
+            "doneBorderColor": "#F9E6E5CC"
+          },
+          "filePreview": {
+            "backgroundColor": "#FFFFFF33",
+            "textColor": "#FFFFFFEE"
+          }
+        },
+
+        "colors": [
+          {
+            "backgroundColor": "#EABDBB",
+            "textColor": "#A47A74",
+            "linkColor": "#A47A74",
+            "buttonColor": "#A47A7499",
+            "markdownMarkup": { "textColor": "#A47A7499" }
+          },
+          {
+            "backgroundColor": "#D9A3A2",
+            "textColor": "#A47A74",
+            "linkColor": "#A47A74",
+            "buttonColor": "#A47A7499",
+            "markdownMarkup": { "textColor": "#A47A7499" }
+          },
+          {
+            "backgroundColor": "#C18D8C",
+            "textColor": "#F9E6E5",
+            "linkColor": "#F9E6E5",
+            "buttonColor": "#F9E6E599",
+            "markdownMarkup": { "textColor": "#F9E6E599" }
+          },
+          {
+            "backgroundColor": "#A47A74",
+            "textColor": "#F9E6E5",
+            "linkColor": "#F9E6E5",
+            "buttonColor": "#F9E6E599",
+            "markdownMarkup": { "textColor": "#F9E6E599" }
+          }
+        ]
+      }
+    },
+
+    "search": {
+      "backgroundColor": "#A47A74",
+      "searchField": {
+        "backgroundColor": "#C18D8C",
+        "textColor": "#F9E6E5",
+        "shadow": {
+          "color": "#002B3600",
+          "blurRadius": 0,
+          "offsetX": 0,
+          "offsetY": -1
+        }
+      },
+      "enableVisualEffects": true
+    }
+  }
+}
